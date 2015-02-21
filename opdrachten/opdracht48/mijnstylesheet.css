@@ -1,0 +1,12 @@
+body{
+    font-family:'Century Gothic',Helvetica, 'Helvetica Neue', Arial, sans-serif;
+    font-size:12px;
+    background:#000;
+    color:#fff;
+    text-align:center;
+}
+#container{
+    background:url("background.jpg") no-repeat;
+    margin:0 auto;
+    text-align:center;
+}

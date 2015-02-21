@@ -1,0 +1,121 @@
+/*
+    AUTHOR:Nancy Vanobbergen
+    DATE: 20/02/2015
+    VERSION: 1.0
+
+    COLOR GUIDE:
+        blue: rgba(105,181,225,1);
+        white:rgba(236,236,236,1);
+*/
+/*
+    IMPORTS
+*/
+@import url('reset.css');
+@import url('fonts.css');
+
+/*
+    GENERAL
+*/
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+}
+body{
+    font-size:16px;
+    overflow:hidden;
+}
+h1{
+    font-size:1.8rem;
+}
+#page{
+    width:100%;
+    height:100%;
+
+}
+
+/*
+    NAVIGATION
+*/
+#nav-wrapper{
+    width:20%;
+    height:100%;
+    background:rgba(105,181,225,1);
+    float:left;
+    padding:2rem 1rem;
+
+    position: fixed;
+    top:0;left:0;
+}
+#logo{
+    text-align:center;
+    margin-bottom:2rem;
+}
+#logo img{
+    width:40%;
+    height:auto;
+    margin:0 30%;
+}
+#logo h1{
+    font-family:'mission script', Arial;
+    color:rgba(236,236,236,1);
+}
+#nav ul{
+    text-align:center;
+    width:100%;
+}
+#nav ul li{
+    padding:0.5rem;
+}
+#nav ul li a{
+    text-decoration:none;
+    color:rgba(236,236,236,1);
+    font-family:'roboto';
+    font-size:1.2rem;
+}
+#nav ul li a:hover{
+    color:rgba(236,236,236,0.5);
+    cursor: pointer;
+}
+/*
+    CONTENT
+*/
+#content{
+    width:80%;
+    height:100%;
+
+    position:absolute;
+    top:0;left:20%;
+    overflow:auto;
+    padding:3rem;
+    background:rgba(236,236,236,1);
+}
+#content .hoofdstuk{
+    margin-bottom:3rem;
+}
+.hoofdstuk ul li {
+    width:30%;
+    margin-right:3%;
+    margin-bottom:3rem;
+    padding:1.5rem;
+    background:rgba(210,210,210,1);
+    border:1px solid rgba(200,200,200,1);
+    border-radius:4px;
+    -o-border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -ms-border-radius:4px;
+    text-align:center;
+}
+.hoofdstuk ul li img{
+    width:100%;
+    margin-bottom:1rem;
+}
+.hoofdstuk ul li a{
+    font-family:'roboto';
+    text-decoration:none;
+    color:rgba(0,0,0,1);
+}
+.hoofdstuk ul li a:hover{
+    color:rgba(0,0,0,0.6);
+}

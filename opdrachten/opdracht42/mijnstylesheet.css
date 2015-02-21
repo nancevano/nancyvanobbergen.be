@@ -1,0 +1,37 @@
+body{
+    font-size:14px;
+    font-family:'lucida grande', lucida, arial;
+}
+h1{
+    font-size:40px;
+    font-family:Georgia;
+    font-style: italic;
+    text-align:right;
+    margin-top:50px;
+}
+p{
+    margin:0 0 18px 0;
+}
+#container{
+    margin:0 auto;
+    width:950px;
+    background:url('grid1.gif');
+    overflow:hidden;
+}
+#intro{
+    float:left;
+    width:270px;
+}
+#muzikanten{
+    float:left;
+    width:590px;
+    padding-left:90px;
+}
+#muzikanten ul{
+    list-style-type: none;
+    overflow:hidden;
+}
+#muzikanten li{
+    float:left;
+    width:230px;
+}

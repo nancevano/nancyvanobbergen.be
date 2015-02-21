@@ -1,0 +1,56 @@
+body{
+    font-size:14px;
+    font-family:'lucida grande', lucida, arial;
+}
+h1{
+    font-size:40px;
+    font-family:Georgia;
+    font-style: italic;
+    text-align:right;
+    margin-top:50px;
+}
+p{
+    margin:0 0 18px 0;
+}
+#container{
+    margin:0 auto;
+    width:950px;
+    overflow:hidden;
+}
+#intro{
+    float:left;
+    width:270px;
+}
+#muzikanten{
+    float:left;
+    width:590px;
+    margin-top:95px;
+    padding-left:90px;
+    overflow:hidden;
+}
+#muzikanten h2{
+    font-size:25px;
+    font-family:Georgia;
+    color:#99445a;
+}
+#muzikanten .instrument{
+    display:block;
+    font-size:12px,
+    font-family:'lucida grande', lucida, arial;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#000;
+}
+#muzikanten ul{
+    list-style-type: none;
+    overflow:hidden;
+    width:720px;
+}
+#muzikanten li{
+    float:left;
+    width:230px;
+    height:530px;
+    overflow:hidden;
+    padding-right:130px;
+    margin-bottom:40px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-strict.dtd">
+<html>
+<head>
+<title>
+  Dit is mijn webpagina
+</title>
+</head>
+<body>
+  <form action ="verzend.php" method="post">
+  <p>
+    <label for ="voornaam">Voornaam</label>
+    <input type="text" id="voornaam" name="voornaam" />
+  </p>
+  <p>
+    <label for ="achternaam">Achternaam</label>
+    <input type="text" id="achternaam" name="achternaam" />
+  </p>
+    <p>
+    <label for ="email">Email</label>
+    <input type="text" id="email" name="email" />
+  </p>
+  <p>
+    <label for ="typeBericht">Type bericht</label>
+  </p>
+  <select id="typeBericht" name="typeBericht">
+  <option value="Technische vraag">Technisch</option>
+  <option value="Algemene vraag">Algemeen</option>
+  </select>
+  <p><label for="bericht">Bericht</label>
+  <textarea id="bericht" name="bericht" cols="25" rows="8">Je bericht</textarea>
+  </p>
+  <input type="submit" value="Verzend" />
+  </form>
+</body>
+</html>

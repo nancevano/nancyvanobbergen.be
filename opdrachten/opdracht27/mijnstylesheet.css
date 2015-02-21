@@ -1,0 +1,14 @@
+#lijstMetDieren{
+    background: #ccc;
+}
+#muizen{
+    position: absolute;
+    right:10px;
+    bottom:10px;
+    z-index: 32;
+}
+#eend{
+    position: fixed;
+    right:20px;
+    top:20px;
+}
